@@ -1,0 +1,6 @@
+@Trackify.Api_HostAddress = http://localhost:5200
+
+GET {{Trackify.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "WK5S5RF7/0mOQlOP+R7FasXvdzuX9ApQsLXtuWR5Ees=",
+  "Source": "Trackify.Api",
+  "BasePath": "_content/Trackify.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Trackify.Api\\wwwroot",
+      "Source": "Trackify.Api",
+      "ContentRoot": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\",
+      "BasePath": "_content/Trackify.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\98cc68f7-edf0-4d50-85bc-3a3035a598fa_Profile.pdf",
+      "SourceId": "Trackify.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\",
+      "BasePath": "_content/Trackify.Api",
+      "RelativePath": "empDoc/98cc68f7-edf0-4d50-85bc-3a3035a598fa_Profile#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "abaqd8nujq",
+      "Integrity": "tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\empDoc\\98cc68f7-edf0-4d50-85bc-3a3035a598fa_Profile.pdf"
+    },
+    {
+      "Identity": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\ba1ca0dd-382e-4694-9452-b3b2412d8437_Profile.pdf",
+      "SourceId": "Trackify.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\",
+      "BasePath": "_content/Trackify.Api",
+      "RelativePath": "empDoc/ba1ca0dd-382e-4694-9452-b3b2412d8437_Profile#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "abaqd8nujq",
+      "Integrity": "tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\empDoc\\ba1ca0dd-382e-4694-9452-b3b2412d8437_Profile.pdf"
+    },
+    {
+      "Identity": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\d646228a-e034-497b-a349-6b8ed878c92c_Profile.pdf",
+      "SourceId": "Trackify.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\",
+      "BasePath": "_content/Trackify.Api",
+      "RelativePath": "empDoc/d646228a-e034-497b-a349-6b8ed878c92c_Profile#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "abaqd8nujq",
+      "Integrity": "tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\empDoc\\d646228a-e034-497b-a349-6b8ed878c92c_Profile.pdf"
+    },
+    {
+      "Identity": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\receipts\\80289e12-47bb-481f-b838-306df3351ac3.pdf",
+      "SourceId": "Trackify.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\",
+      "BasePath": "_content/Trackify.Api",
+      "RelativePath": "receipts/80289e12-47bb-481f-b838-306df3351ac3#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4dixkpxq2x",
+      "Integrity": "yPyDedv425fxwyZ2JUdC32nvoavidgKsj81a9KydNrI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\receipts\\80289e12-47bb-481f-b838-306df3351ac3.pdf"
+    },
+    {
+      "Identity": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\receipts\\d0e48202-f430-48aa-8880-1a43e743c8ca.pdf",
+      "SourceId": "Trackify.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\",
+      "BasePath": "_content/Trackify.Api",
+      "RelativePath": "receipts/d0e48202-f430-48aa-8880-1a43e743c8ca#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ra2hxavcrg",
+      "Integrity": "HcECiu1ZFDDKQSrEDC/ogruhRsj6Ek8Cxwaxbv5L+gU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\receipts\\d0e48202-f430-48aa-8880-1a43e743c8ca.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "empDoc/98cc68f7-edf0-4d50-85bc-3a3035a598fa_Profile.abaqd8nujq.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\98cc68f7-edf0-4d50-85bc-3a3035a598fa_Profile.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 13:54:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "abaqd8nujq"
+        },
+        {
+          "Name": "label",
+          "Value": "empDoc/98cc68f7-edf0-4d50-85bc-3a3035a598fa_Profile.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM="
+        }
+      ]
+    },
+    {
+      "Route": "empDoc/98cc68f7-edf0-4d50-85bc-3a3035a598fa_Profile.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\98cc68f7-edf0-4d50-85bc-3a3035a598fa_Profile.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 13:54:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM="
+        }
+      ]
+    },
+    {
+      "Route": "empDoc/ba1ca0dd-382e-4694-9452-b3b2412d8437_Profile.abaqd8nujq.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\ba1ca0dd-382e-4694-9452-b3b2412d8437_Profile.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 13:43:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "abaqd8nujq"
+        },
+        {
+          "Name": "label",
+          "Value": "empDoc/ba1ca0dd-382e-4694-9452-b3b2412d8437_Profile.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM="
+        }
+      ]
+    },
+    {
+      "Route": "empDoc/ba1ca0dd-382e-4694-9452-b3b2412d8437_Profile.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\ba1ca0dd-382e-4694-9452-b3b2412d8437_Profile.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 13:43:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM="
+        }
+      ]
+    },
+    {
+      "Route": "empDoc/d646228a-e034-497b-a349-6b8ed878c92c_Profile.abaqd8nujq.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\d646228a-e034-497b-a349-6b8ed878c92c_Profile.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 13:29:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "abaqd8nujq"
+        },
+        {
+          "Name": "label",
+          "Value": "empDoc/d646228a-e034-497b-a349-6b8ed878c92c_Profile.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM="
+        }
+      ]
+    },
+    {
+      "Route": "empDoc/d646228a-e034-497b-a349-6b8ed878c92c_Profile.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\d646228a-e034-497b-a349-6b8ed878c92c_Profile.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 13:29:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM="
+        }
+      ]
+    },
+    {
+      "Route": "receipts/80289e12-47bb-481f-b838-306df3351ac3.4dixkpxq2x.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\receipts\\80289e12-47bb-481f-b838-306df3351ac3.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPyDedv425fxwyZ2JUdC32nvoavidgKsj81a9KydNrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 13:50:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4dixkpxq2x"
+        },
+        {
+          "Name": "label",
+          "Value": "receipts/80289e12-47bb-481f-b838-306df3351ac3.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yPyDedv425fxwyZ2JUdC32nvoavidgKsj81a9KydNrI="
+        }
+      ]
+    },
+    {
+      "Route": "receipts/80289e12-47bb-481f-b838-306df3351ac3.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\receipts\\80289e12-47bb-481f-b838-306df3351ac3.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPyDedv425fxwyZ2JUdC32nvoavidgKsj81a9KydNrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Jul 2025 13:50:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yPyDedv425fxwyZ2JUdC32nvoavidgKsj81a9KydNrI="
+        }
+      ]
+    },
+    {
+      "Route": "receipts/d0e48202-f430-48aa-8880-1a43e743c8ca.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\receipts\\d0e48202-f430-48aa-8880-1a43e743c8ca.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "197148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HcECiu1ZFDDKQSrEDC/ogruhRsj6Ek8Cxwaxbv5L+gU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 12:49:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HcECiu1ZFDDKQSrEDC/ogruhRsj6Ek8Cxwaxbv5L+gU="
+        }
+      ]
+    },
+    {
+      "Route": "receipts/d0e48202-f430-48aa-8880-1a43e743c8ca.ra2hxavcrg.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\receipts\\d0e48202-f430-48aa-8880-1a43e743c8ca.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "197148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HcECiu1ZFDDKQSrEDC/ogruhRsj6Ek8Cxwaxbv5L+gU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 12:49:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ra2hxavcrg"
+        },
+        {
+          "Name": "label",
+          "Value": "receipts/d0e48202-f430-48aa-8880-1a43e743c8ca.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HcECiu1ZFDDKQSrEDC/ogruhRsj6Ek8Cxwaxbv5L+gU="
+        }
+      ]
+    }
+  ]
+}
