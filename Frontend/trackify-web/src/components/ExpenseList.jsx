@@ -166,7 +166,6 @@ const ExpenseList = ({ refreshTrigger, onEdit }) => {
                         </span>
                       </td>
                       <td className="fw-medium">${exp.amount.toFixed(2)}</td>
-                      {/* <td>{new Date(exp.date).toLocaleDateString()}</td> */}
                       <td>
                         {exp.date
                           ? new Date(exp.date).toLocaleDateString('en-GB', {

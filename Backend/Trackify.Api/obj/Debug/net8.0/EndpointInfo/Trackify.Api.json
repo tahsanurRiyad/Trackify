@@ -211,6 +211,13 @@
                   "EmpDoc": {
                     "type": "string"
                   },
+                  "ProfilePicture": {
+                    "type": "string"
+                  },
+                  "profilePicture": {
+                    "type": "string",
+                    "format": "binary"
+                  },
                   "document": {
                     "type": "string",
                     "format": "binary"
@@ -251,6 +258,12 @@
                 "EmpDoc": {
                   "style": "form"
                 },
+                "ProfilePicture": {
+                  "style": "form"
+                },
+                "profilePicture": {
+                  "style": "form"
+                },
                 "document": {
                   "style": "form"
                 }
@@ -267,6 +280,27 @@
     },
     "/Employees/{id}": {
       "get": {
+        "tags": [
+          "Employees"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
         "tags": [
           "Employees"
         ],
@@ -344,6 +378,13 @@
                   "EmpDoc": {
                     "type": "string"
                   },
+                  "ProfilePicture": {
+                    "type": "string"
+                  },
+                  "profilePicture": {
+                    "type": "string",
+                    "format": "binary"
+                  },
                   "document": {
                     "type": "string",
                     "format": "binary"
@@ -384,6 +425,12 @@
                 "EmpDoc": {
                   "style": "form"
                 },
+                "ProfilePicture": {
+                  "style": "form"
+                },
+                "profilePicture": {
+                  "style": "form"
+                },
                 "document": {
                   "style": "form"
                 }
@@ -391,27 +438,6 @@
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Employees"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -846,6 +872,10 @@
             "nullable": true
           },
           "empDoc": {
+            "type": "string",
+            "nullable": true
+          },
+          "profilePicture": {
             "type": "string",
             "nullable": true
           }

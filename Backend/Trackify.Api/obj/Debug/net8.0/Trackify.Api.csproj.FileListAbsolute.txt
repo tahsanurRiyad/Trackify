@@ -170,4 +170,5 @@ D:\Personal\PersonalProjects\Trackify\Backend\Trackify.Api\obj\Debug\net8.0\Trac
 D:\Personal\PersonalProjects\Trackify\Backend\Trackify.Api\obj\Debug\net8.0\Trackify.Api.genruntimeconfig.cache
 D:\Personal\PersonalProjects\Trackify\Backend\Trackify.Api\obj\Debug\net8.0\ref\Trackify.Api.dll
 D:\Personal\PersonalProjects\Trackify\Backend\Trackify.Api\bin\Debug\net8.0\Trackify.Api.staticwebassets.runtime.json
+D:\Personal\PersonalProjects\Trackify\Backend\Trackify.Api\obj\Debug\net8.0\Trackify.Api.sourcelink.json
 D:\Personal\PersonalProjects\Trackify\Backend\Trackify.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

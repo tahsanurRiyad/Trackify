@@ -13,5 +13,6 @@
         public bool IsActive { get; set; }
         public DateTime? TerminationDate { get; set; }
         public string? EmpDoc { get; set; }
+        public string? ProfilePicture { get; set; }
     }
 }

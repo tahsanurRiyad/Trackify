@@ -49,61 +49,61 @@ namespace Trackify.Api.Controllers
             }
         }
 
-        [HttpPost]
-        [Consumes("multipart/form-data")]
-        public async Task<IActionResult> Create([FromForm] Employee employee, IFormFile? document)
-        {
-            try
-            {
-                if (document != null)
-                {
-                    var filePath = await SaveDocument(document);
-                    employee.EmpDoc = filePath;
-                }
+        //[HttpPost]
+        //[Consumes("multipart/form-data")]
+        //public async Task<IActionResult> Create([FromForm] Employee employee, IFormFile? document)
+        //{
+        //    try
+        //    {
+        //        if (document != null)
+        //        {
+        //            var filePath = await SaveDocument(document);
+        //            employee.EmpDoc = filePath;
+        //        }
 
-                _context.Employees.Add(employee);
-                await _context.SaveChangesAsync();
-                return CreatedAtAction(nameof(GetAll), new { id = employee.Id }, employee);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
-        }
+        //        _context.Employees.Add(employee);
+        //        await _context.SaveChangesAsync();
+        //        return CreatedAtAction(nameof(GetAll), new { id = employee.Id }, employee);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, $"Internal server error: {ex.Message}");
+        //    }
+        //}
 
-        [HttpPut("{id}")]
-        [Consumes("multipart/form-data")]
-        public async Task<IActionResult> Update(int id, [FromForm] Employee employee, IFormFile? document)
-        {
-            try
-            {
-                var existingEmployee = await _context.Employees.FindAsync(id);
-                if (existingEmployee == null) return NotFound();
+        //[HttpPut("{id}")]
+        //[Consumes("multipart/form-data")]
+        //public async Task<IActionResult> Update(int id, [FromForm] Employee employee, IFormFile? document)
+        //{
+        //    try
+        //    {
+        //        var existingEmployee = await _context.Employees.FindAsync(id);
+        //        if (existingEmployee == null) return NotFound();
 
-                // Update fields
-                existingEmployee.Name = employee.Name;
-                existingEmployee.Address = employee.Address;
-                existingEmployee.Email = employee.Email;
-                existingEmployee.Phone = employee.Phone;
-                existingEmployee.Designation = employee.Designation;
-                existingEmployee.JoiningDate = employee.JoiningDate;
-                existingEmployee.TerminationDate = employee.TerminationDate;
-                existingEmployee.IsActive = employee.IsActive;
+        //        // Update fields
+        //        existingEmployee.Name = employee.Name;
+        //        existingEmployee.Address = employee.Address;
+        //        existingEmployee.Email = employee.Email;
+        //        existingEmployee.Phone = employee.Phone;
+        //        existingEmployee.Designation = employee.Designation;
+        //        existingEmployee.JoiningDate = employee.JoiningDate;
+        //        existingEmployee.TerminationDate = employee.TerminationDate;
+        //        existingEmployee.IsActive = employee.IsActive;
 
-                if (document != null)
-                {
-                    var filePath = await SaveDocument(document);
-                    existingEmployee.EmpDoc = filePath;
-                }
+        //        if (document != null)
+        //        {
+        //            var filePath = await SaveDocument(document);
+        //            existingEmployee.EmpDoc = filePath;
+        //        }
 
-                await _context.SaveChangesAsync();
-                return Ok(existingEmployee);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
-        }
+        //        await _context.SaveChangesAsync();
+        //        return Ok(existingEmployee);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, $"Internal server error: {ex.Message}");
+        //    }
+        //}
 
 
         // DELETE: api/employees/{id}
@@ -126,31 +126,152 @@ namespace Trackify.Api.Controllers
             }
         }
 
-        private async Task<string> SaveDocument(IFormFile file)
+        //private async Task<string> SaveDocument(IFormFile file)
+        //{
+        //    try
+        //    {
+        //        var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "empDoc");
+        //        if (!Directory.Exists(uploadsFolder))
+        //            Directory.CreateDirectory(uploadsFolder);
+
+        //        var fileName = $"{Guid.NewGuid()}_{file.FileName}";
+        //        var fullPath = Path.Combine(uploadsFolder, fileName);
+
+        //        using (var stream = new FileStream(fullPath, FileMode.Create))
+        //        {
+        //            await file.CopyToAsync(stream);
+        //        }
+
+        //        // Return relative path
+        //        return Path.Combine("empDoc", fileName).Replace("\\", "/");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new Exception(ex.Message, ex);
+        //    }
+        //}
+
+
+
+        [HttpPost]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Create([FromForm] Employee employee,
+                                       IFormFile? profilePicture,
+                                       IFormFile? document)
         {
             try
             {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "empDoc");
+                if (profilePicture != null)
+                {
+                    employee.ProfilePicture = await SaveFile(profilePicture, "profilePictures");
+                }
+
+                if (document != null)
+                {
+                    employee.EmpDoc = await SaveFile(document, "empDoc");
+                }
+
+                _context.Employees.Add(employee);
+                await _context.SaveChangesAsync();
+                return CreatedAtAction(nameof(GetAll), new { id = employee.Id }, employee);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        [HttpPut("{id}")]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Update(int id, [FromForm] Employee employee,
+                                        IFormFile? profilePicture,
+                                        IFormFile? document)
+        {
+            try
+            {
+                var existingEmployee = await _context.Employees.FindAsync(id);
+                if (existingEmployee == null) return NotFound();
+
+                // Update fields
+                existingEmployee.EmpNo = employee.EmpNo;
+                existingEmployee.Name = employee.Name;
+                existingEmployee.Address = employee.Address;
+                existingEmployee.Email = employee.Email;
+                existingEmployee.Phone = employee.Phone;
+                existingEmployee.Designation = employee.Designation;
+                existingEmployee.JoiningDate = employee.JoiningDate;
+                existingEmployee.TerminationDate = employee.TerminationDate;
+                existingEmployee.IsActive = employee.IsActive;
+
+                if (profilePicture != null)
+                {
+                    // Remove old profile picture if exists
+                    if (!string.IsNullOrEmpty(existingEmployee.ProfilePicture))
+                    {
+                        DeleteFile(existingEmployee.ProfilePicture);
+                    }
+                    existingEmployee.ProfilePicture = await SaveFile(profilePicture, "profilePictures");
+                }
+
+                if (document != null)
+                {
+                    // Remove old document if exists
+                    if (!string.IsNullOrEmpty(existingEmployee.EmpDoc))
+                    {
+                        DeleteFile(existingEmployee.EmpDoc);
+                    }
+                    existingEmployee.EmpDoc = await SaveFile(document, "empDoc");
+                }
+
+                await _context.SaveChangesAsync();
+                return Ok(existingEmployee);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        private async Task<string> SaveFile(IFormFile file, string folderName)
+        {
+            try
+            {
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", folderName);
                 if (!Directory.Exists(uploadsFolder))
                     Directory.CreateDirectory(uploadsFolder);
 
-                var fileName = $"{Guid.NewGuid()}_{file.FileName}";
-                var fullPath = Path.Combine(uploadsFolder, fileName);
+                var uniqueFileName = $"{Guid.NewGuid()}_{file.FileName}";
+                var fullPath = Path.Combine(uploadsFolder, uniqueFileName);
 
                 using (var stream = new FileStream(fullPath, FileMode.Create))
                 {
                     await file.CopyToAsync(stream);
                 }
 
-                // Return relative path
-                return Path.Combine("empDoc", fileName).Replace("\\", "/");
+                return Path.Combine(folderName, uniqueFileName).Replace("\\", "/");
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message, ex);
+                throw new Exception("File save error: " + ex.Message, ex);
             }
         }
 
+        private void DeleteFile(string filePath)
+        {
+            try
+            {
+                var fullPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", filePath);
+                if (System.IO.File.Exists(fullPath))
+                {
+                    System.IO.File.Delete(fullPath);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log error but don't throw
+                Console.WriteLine("Error deleting file: " + ex.Message);
+            }
+        }
 
 
     }

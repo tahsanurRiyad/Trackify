@@ -172,6 +172,16 @@
         "IsRequired": false
       },
       {
+        "Name": "ProfilePicture",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "profilePicture",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
         "Name": "document",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
@@ -184,6 +194,22 @@
     "Method": "GetById",
     "RelativePath": "Employees/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Trackify.Api.Controllers.EmployeesController",
+    "Method": "Delete",
+    "RelativePath": "Employees/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -264,25 +290,19 @@
         "IsRequired": false
       },
       {
+        "Name": "ProfilePicture",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "profilePicture",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
         "Name": "document",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Trackify.Api.Controllers.EmployeesController",
-    "Method": "Delete",
-    "RelativePath": "Employees/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
