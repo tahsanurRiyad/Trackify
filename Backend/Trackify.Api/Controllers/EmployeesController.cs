@@ -49,62 +49,6 @@ namespace Trackify.Api.Controllers
             }
         }
 
-        //[HttpPost]
-        //[Consumes("multipart/form-data")]
-        //public async Task<IActionResult> Create([FromForm] Employee employee, IFormFile? document)
-        //{
-        //    try
-        //    {
-        //        if (document != null)
-        //        {
-        //            var filePath = await SaveDocument(document);
-        //            employee.EmpDoc = filePath;
-        //        }
-
-        //        _context.Employees.Add(employee);
-        //        await _context.SaveChangesAsync();
-        //        return CreatedAtAction(nameof(GetAll), new { id = employee.Id }, employee);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return StatusCode(500, $"Internal server error: {ex.Message}");
-        //    }
-        //}
-
-        //[HttpPut("{id}")]
-        //[Consumes("multipart/form-data")]
-        //public async Task<IActionResult> Update(int id, [FromForm] Employee employee, IFormFile? document)
-        //{
-        //    try
-        //    {
-        //        var existingEmployee = await _context.Employees.FindAsync(id);
-        //        if (existingEmployee == null) return NotFound();
-
-        //        // Update fields
-        //        existingEmployee.Name = employee.Name;
-        //        existingEmployee.Address = employee.Address;
-        //        existingEmployee.Email = employee.Email;
-        //        existingEmployee.Phone = employee.Phone;
-        //        existingEmployee.Designation = employee.Designation;
-        //        existingEmployee.JoiningDate = employee.JoiningDate;
-        //        existingEmployee.TerminationDate = employee.TerminationDate;
-        //        existingEmployee.IsActive = employee.IsActive;
-
-        //        if (document != null)
-        //        {
-        //            var filePath = await SaveDocument(document);
-        //            existingEmployee.EmpDoc = filePath;
-        //        }
-
-        //        await _context.SaveChangesAsync();
-        //        return Ok(existingEmployee);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return StatusCode(500, $"Internal server error: {ex.Message}");
-        //    }
-        //}
-
 
         // DELETE: api/employees/{id}
         [HttpDelete("{id}")]
@@ -125,33 +69,6 @@ namespace Trackify.Api.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
-
-        //private async Task<string> SaveDocument(IFormFile file)
-        //{
-        //    try
-        //    {
-        //        var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "empDoc");
-        //        if (!Directory.Exists(uploadsFolder))
-        //            Directory.CreateDirectory(uploadsFolder);
-
-        //        var fileName = $"{Guid.NewGuid()}_{file.FileName}";
-        //        var fullPath = Path.Combine(uploadsFolder, fileName);
-
-        //        using (var stream = new FileStream(fullPath, FileMode.Create))
-        //        {
-        //            await file.CopyToAsync(stream);
-        //        }
-
-        //        // Return relative path
-        //        return Path.Combine("empDoc", fileName).Replace("\\", "/");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception(ex.Message, ex);
-        //    }
-        //}
-
-
 
         [HttpPost]
         [Consumes("multipart/form-data")]

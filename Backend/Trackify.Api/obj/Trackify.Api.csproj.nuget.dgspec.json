@@ -49,6 +49,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FastReport.OpenSource": {
+              "target": "Package",
+              "version": "[2025.2.0, )"
+            },
+            "FastReport.OpenSource.Data.MsSql": {
+              "target": "Package",
+              "version": "[2021.4.0, )"
+            },
+            "FastReport.OpenSource.Export.PdfSimple": {
+              "target": "Package",
+              "version": "[2025.2.0, )"
+            },
+            "FastReport.OpenSource.Web": {
+              "target": "Package",
+              "version": "[2025.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

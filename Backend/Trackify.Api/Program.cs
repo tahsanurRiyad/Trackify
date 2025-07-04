@@ -1,11 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using Trackify.Api.Data;
 using Trackify.Api.Services;
+using FastReport;
+using FastReport.Web;
+using FastReport.Export.PdfSimple;
+using FastReport.Data;
+using FastReport.Utils;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -22,10 +28,16 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddSingleton<PasswordService>();
+builder.Services.AddFastReport();
+
+RegisteredObjects.AddConnection(typeof(MsSqlDataConnection));
 
 var app = builder.Build();
 
 app.UseCors("AllowAll");
+
+app.UseFastReport();
+app.MapGet("/", () => "FastReport ready!");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -38,6 +50,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 app.UseStaticFiles();
+app.MapControllers();
 app.Run();
 
 

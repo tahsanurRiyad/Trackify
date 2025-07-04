@@ -4,6 +4,38 @@ import { toast } from 'react-toastify';
 
 const EmployeeList = ({ employees, loading, onEdit, onDeleteSuccess }) => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [reportHtml, setReportHtml] = useState('');
+
+  const downloadReport = async () => {
+    try {
+      console.log('Export button clicked');
+      const res = await api.get('/reports/pdf/employees', {
+        responseType: 'blob' // important for binary data
+      });
+
+      const blob = new Blob([res.data], { type: 'application/pdf' });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'EmployeeReport.pdf';
+      a.click();
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Error downloading PDF:', error);
+    }
+  };
+
+  const loadReport = async () => {
+    try {
+      console.log('Export button clicked');
+      const res = await api.get('/reports/web/employees', {
+        responseType: 'text'  // important: response is HTML text, not JSON
+      });
+      setReportHtml(res.data);  // set raw HTML string
+    } catch (error) {
+      console.error('Failed to load report:', error);
+    }
+  };
 
   const handleDelete = async (id) => {
     if (window.confirm('Are you sure you want to delete this employee?')) {
@@ -64,7 +96,7 @@ const EmployeeList = ({ employees, loading, onEdit, onDeleteSuccess }) => {
               onChange={(e) => setSearchTerm(e.target.value)}
             />
           </div>
-          <button className="btn btn-outline-light">
+          <button className="btn btn-outline-light" onClick={downloadReport}>
             <i className="bi bi-download me-1"></i> Export
           </button>
         </div>

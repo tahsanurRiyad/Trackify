@@ -7,8 +7,28 @@
       "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\services\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:services\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\controllers\\trackifyuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:controllers\\trackifyuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\models\\trackifyusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:models\\trackifyusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A4BA9F2-E0CA-419D-90DB-9264FD6D5CF1}|Trackify.Api.csproj|d:\\personal\\personalprojects\\trackify\\backend\\trackify.api\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,23 +74,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Services\\Utilities.cs",
+              "RelativeDocumentMoniker": "Services\\Utilities.cs",
+              "ToolTip": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Services\\Utilities.cs",
+              "RelativeToolTip": "Services\\Utilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T13:53:30.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportsController.cs",
+              "ToolTip": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAwwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:21:16.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
               "ToolTip": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "Controllers\\DashboardController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwCwAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T13:22:04.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "PasswordService.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Services\\PasswordService.cs",
               "RelativeDocumentMoniker": "Services\\PasswordService.cs",
@@ -94,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "TrackifyUsersController.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Controllers\\TrackifyUsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\TrackifyUsersController.cs",
@@ -107,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "TrackifyUsers.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Models\\TrackifyUsers.cs",
               "RelativeDocumentMoniker": "Models\\TrackifyUsers.cs",
@@ -119,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ExpensesController.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Controllers\\ExpensesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ExpensesController.cs",
@@ -138,27 +172,26 @@
               "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
               "ToolTip": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAApwN8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAIAwwGkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T11:51:27.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Models\\Employee.cs",
               "ToolTip": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Models\\Employee.cs",
               "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T11:40:43.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T11:40:43.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "AssetsController.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Controllers\\AssetsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AssetsController.cs",
@@ -171,31 +204,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-28T10:12:49.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T10:11:24.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -207,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Expense.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Models\\Expense.cs",
               "RelativeDocumentMoniker": "Models\\Expense.cs",
@@ -219,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ExpenseUploadDto.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\DTOs\\ExpenseUploadDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ExpenseUploadDto.cs",
@@ -231,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Asset.cs",
               "DocumentMoniker": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\Models\\Asset.cs",
               "RelativeDocumentMoniker": "Models\\Asset.cs",

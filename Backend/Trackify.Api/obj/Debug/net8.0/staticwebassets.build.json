@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WK5S5RF7/0mOQlOP+R7FasXvdzuX9ApQsLXtuWR5Ees=",
+  "Hash": "Sra1jEcKy6Pf/RBNOTA7nKkxH4Gx5lVCbWVgVBhT1TM=",
   "Source": "Trackify.Api",
   "BasePath": "_content/Trackify.Api",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\empDoc\\98cc68f7-edf0-4d50-85bc-3a3035a598fa_Profile.pdf"
+    },
+    {
+      "Identity": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\b473df1a-fc8b-4fd3-9821-b480c9f41976_MyAttendance.pdf",
+      "SourceId": "Trackify.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\",
+      "BasePath": "_content/Trackify.Api",
+      "RelativePath": "empDoc/b473df1a-fc8b-4fd3-9821-b480c9f41976_MyAttendance#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b1djsuwwp3",
+      "Integrity": "v5xpj7zy89EQMYf2/XyNrSIuWzo01xM0TmLcvPB2cy8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\empDoc\\b473df1a-fc8b-4fd3-9821-b480c9f41976_MyAttendance.pdf"
     },
     {
       "Identity": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\ba1ca0dd-382e-4694-9452-b3b2412d8437_Profile.pdf",
@@ -78,6 +99,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\empDoc\\d646228a-e034-497b-a349-6b8ed878c92c_Profile.pdf"
+    },
+    {
+      "Identity": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\profilePictures\\fa27b49a-61f2-40d1-8a8d-ec18915542a9_Picture1.jpg",
+      "SourceId": "Trackify.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\",
+      "BasePath": "_content/Trackify.Api",
+      "RelativePath": "profilePictures/fa27b49a-61f2-40d1-8a8d-ec18915542a9_Picture1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wprhv3nkqz",
+      "Integrity": "bH7ruC4M+PyQjOckOvvpPoSlutGakUUIy4XiaMr1GD4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profilePictures\\fa27b49a-61f2-40d1-8a8d-ec18915542a9_Picture1.jpg"
+    },
+    {
+      "Identity": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\profilePictures\\ff64006e-17eb-4123-98df-9ed063363e51_dp.jpg",
+      "SourceId": "Trackify.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\",
+      "BasePath": "_content/Trackify.Api",
+      "RelativePath": "profilePictures/ff64006e-17eb-4123-98df-9ed063363e51_dp#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qre07q976u",
+      "Integrity": "OlY++jvEhAj5cb/zIMPERyaS8JO6Y24EmzOVISVOYEM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profilePictures\\ff64006e-17eb-4123-98df-9ed063363e51_dp.jpg"
     },
     {
       "Identity": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\receipts\\80289e12-47bb-481f-b838-306df3351ac3.pdf",
@@ -202,6 +265,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM="
+        }
+      ]
+    },
+    {
+      "Route": "empDoc/b473df1a-fc8b-4fd3-9821-b480c9f41976_MyAttendance.b1djsuwwp3.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\b473df1a-fc8b-4fd3-9821-b480c9f41976_MyAttendance.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v5xpj7zy89EQMYf2/XyNrSIuWzo01xM0TmLcvPB2cy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 10:07:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b1djsuwwp3"
+        },
+        {
+          "Name": "label",
+          "Value": "empDoc/b473df1a-fc8b-4fd3-9821-b480c9f41976_MyAttendance.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v5xpj7zy89EQMYf2/XyNrSIuWzo01xM0TmLcvPB2cy8="
+        }
+      ]
+    },
+    {
+      "Route": "empDoc/b473df1a-fc8b-4fd3-9821-b480c9f41976_MyAttendance.pdf",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\empDoc\\b473df1a-fc8b-4fd3-9821-b480c9f41976_MyAttendance.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v5xpj7zy89EQMYf2/XyNrSIuWzo01xM0TmLcvPB2cy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 10:07:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v5xpj7zy89EQMYf2/XyNrSIuWzo01xM0TmLcvPB2cy8="
         }
       ]
     },
@@ -366,6 +511,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-tvOlXvRy/VoORDpdypdOl82hBtyil8kEUjePh+rwBqM="
+        }
+      ]
+    },
+    {
+      "Route": "profilePictures/fa27b49a-61f2-40d1-8a8d-ec18915542a9_Picture1.jpg",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\profilePictures\\fa27b49a-61f2-40d1-8a8d-ec18915542a9_Picture1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bH7ruC4M+PyQjOckOvvpPoSlutGakUUIy4XiaMr1GD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 10:08:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bH7ruC4M+PyQjOckOvvpPoSlutGakUUIy4XiaMr1GD4="
+        }
+      ]
+    },
+    {
+      "Route": "profilePictures/fa27b49a-61f2-40d1-8a8d-ec18915542a9_Picture1.wprhv3nkqz.jpg",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\profilePictures\\fa27b49a-61f2-40d1-8a8d-ec18915542a9_Picture1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bH7ruC4M+PyQjOckOvvpPoSlutGakUUIy4XiaMr1GD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 10:08:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wprhv3nkqz"
+        },
+        {
+          "Name": "label",
+          "Value": "profilePictures/fa27b49a-61f2-40d1-8a8d-ec18915542a9_Picture1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bH7ruC4M+PyQjOckOvvpPoSlutGakUUIy4XiaMr1GD4="
+        }
+      ]
+    },
+    {
+      "Route": "profilePictures/ff64006e-17eb-4123-98df-9ed063363e51_dp.jpg",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\profilePictures\\ff64006e-17eb-4123-98df-9ed063363e51_dp.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OlY++jvEhAj5cb/zIMPERyaS8JO6Y24EmzOVISVOYEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 10:07:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OlY++jvEhAj5cb/zIMPERyaS8JO6Y24EmzOVISVOYEM="
+        }
+      ]
+    },
+    {
+      "Route": "profilePictures/ff64006e-17eb-4123-98df-9ed063363e51_dp.qre07q976u.jpg",
+      "AssetFile": "D:\\Personal\\PersonalProjects\\Trackify\\Backend\\Trackify.Api\\wwwroot\\profilePictures\\ff64006e-17eb-4123-98df-9ed063363e51_dp.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OlY++jvEhAj5cb/zIMPERyaS8JO6Y24EmzOVISVOYEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 10:07:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qre07q976u"
+        },
+        {
+          "Name": "label",
+          "Value": "profilePictures/ff64006e-17eb-4123-98df-9ed063363e51_dp.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OlY++jvEhAj5cb/zIMPERyaS8JO6Y24EmzOVISVOYEM="
         }
       ]
     },

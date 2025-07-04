@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import api from '../services/api';
 import { toast } from 'react-toastify';
+import { showConfirmation, showSuccess, showError,showWarningConfirm, showToast, showLoading, closeAlert } from '../Utility/SweetAlertUtils';
 
 const EmployeeForm = ({ employeeToEdit, onEmployeeSaved, onCancel }) => {
   const [employee, setEmployee] = useState({
@@ -148,15 +149,28 @@ const EmployeeForm = ({ employeeToEdit, onEmployeeSaved, onCancel }) => {
       }
 
       if (isEditing) {
-        await api.put(`/employees/${employee.id}`, formData, {
-          headers: { "Content-Type": "multipart/form-data" }
-        });
-        toast.success("Employee updated successfully!");
+        const result = await showConfirmation({ text: "Do you want to update the employee data?" });
+        if (result.isConfirmed){
+          showLoading('Saving...');
+          await api.put(`/employees/${employee.id}`, formData, {
+            headers: { "Content-Type": "multipart/form-data" }
+          });
+          closeAlert();
+          showSuccess('Employee Updated!', 'Employee updated successfully!');
+          //toast.success("Employee updated successfully!");
+          //showToast('Employee updated successfully!', 'success');
+        }
       } else {
-        await api.post('/employees', formData, {
-          headers: { "Content-Type": "multipart/form-data" }
-        });
-        toast.success("Employee added successfully!");
+        const result = await showConfirmation({ text: "Do you want to add the employee?" });
+        if (result.isConfirmed){
+          showLoading('Saving...');
+          await api.post('/employees', formData, {
+            headers: { "Content-Type": "multipart/form-data" }
+          });
+          closeAlert();
+          showSuccess('Employee Added!', 'Employee added successfully!');
+          //toast.success("Employee added successfully!");
+        }
       }
       
       onEmployeeSaved();

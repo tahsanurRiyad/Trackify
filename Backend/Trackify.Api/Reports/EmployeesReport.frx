@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/03/2025 19:15:00" ReportInfo.Modified="07/03/2025 21:59:33" ReportInfo.CreatorVersion="2025.2.0.0">
+  <Dictionary>
+    <JsonDataSourceConnection Name="EmpList" ConnectionString="rijcmlqbJsCNDUWD8zs7Fjc+Sa5CpmnNnZZ6Cv9zAR730rabYHojNi+EutEINOGWn80kVzyM4ZNKyvUAZfo1NFZMcwUt/NKngEhS4bx7WMr7prkXxwvGLcaMYvzuP3Ij039yDeKVc/39nFi5DQQgwMpwBpWLlCqoShyxzhAWQkdC8m+/QKrHcDu56/kAqQeasgHu0gf2sOY4ESD39CZTLHfJkNvkI4EJkIr34kIjL1EhzxL1MvpmwSrufkyd0vhRsKYnvJL7twdSgH+zNOs7NJ1GBJgyU+BX8ueR7Oo21DXvxiZ7MUCn9slvaLbU05+n9aggSAMTNjPlH0iL30aqWKyAxsRJHJjWaP4USR/cH7/ch8TkAQ73RQO/POR53VjV9uRE9pM71DBIDEEPEDLq0ewykQKa6rXSBVycsL6BJ30ijx1inFRBMxCHWo99vMzybRjETZEtG4lJ6zBgbjxDr+ctuy9HbsXNjNOq6Vv5SQqdO/yJxVgIO9iytY/KkZMiF+Pff9jdu+XXPazKp3tmQcila8WToXctlKDvmyQCC6h+1FQ+l6qnwTbOOvViHs4egNY99kdfUoB0pG2D1l6ugLAbtfKSUDZrQZot+WcsmIJCJ5HDQcPakQPtZrskCJUv6bSDRXIzCEybN67/jMzOJHHS50aeS5RMYE9KRPM/mzX5+/ohC4=">
+      <JsonTableDataSource Name="JSON" DataType="FastReport.Utils.Json.JsonArray" Enabled="true" TableName="JSON">
+        <Column Name="index" Enabled="false" DataType="System.Int32"/>
+        <Column Name="item" DataType="FastReport.JsonBase">
+          <Column Name="id" DataType="System.Double"/>
+          <Column Name="empNo" DataType="System.String"/>
+          <Column Name="name" DataType="System.String"/>
+          <Column Name="address" DataType="System.String"/>
+          <Column Name="email" DataType="System.String"/>
+          <Column Name="phone" DataType="System.String"/>
+          <Column Name="designation" DataType="System.String"/>
+          <Column Name="joiningDate" DataType="System.Object"/>
+          <Column Name="isActive" DataType="System.Boolean" BindableControl="CheckBox"/>
+          <Column Name="terminationDate" DataType="System.Object"/>
+          <Column Name="empDoc" DataType="System.String"/>
+          <Column Name="profilePicture" DataType="System.String"/>
+        </Column>
+        <Column Name="array" Enabled="false" DataType="FastReport.JsonBase"/>
+      </JsonTableDataSource>
+    </JsonDataSourceConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Title" Width="718.2" Height="28.35" Text="Employee Report" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="28.35">
+      <TextObject Name="HeaderId" Left="40" Width="60" Height="28.35" Border.Lines="All" Text="ID" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="HeaderName" Left="100" Width="159.45" Height="28.35" Border.Lines="All" Text="Name" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="HeaderDesignation" Left="259.45" Width="130" Height="28.35" Border.Lines="All" Text="Designation" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="HeaderJoiningDate" Left="389.45" Width="120" Height="28.35" Border.Lines="All" Text="Joining Date" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="HeaderEmail" Left="509.45" Width="150" Height="28.35" Border.Lines="All" Text="Email" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="HeaderIsActive" Left="659.45" Width="58.75" Height="28.35" Border.Lines="All" Text="Active" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text1" Left="9.45" Top="18.9" Height="9.45" Border.Lines="All" CanGrow="true" Text="[JSON.item.empNo]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text3" Width="39.69" Height="28.35" Border.Lines="All" Text="#" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="74.15" Width="718.2" Height="28.35" DataSource="JSON">
+      <TextObject Name="DataId" Left="40" Width="60" Height="28.35" Border.Lines="All" CanGrow="true" Text="[JSON.item.empNo]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="DataName" Left="100" Width="159.45" Height="28.35" Border.Lines="All" CanGrow="true" Text="[JSON.item.name]" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="DataDesignation" Left="259.45" Width="130" Height="28.35" Border.Lines="All" CanGrow="true" Text="[JSON.item.designation]" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="DataJoiningDate" Left="389.45" Width="120" Height="28.35" Border.Lines="All" CanGrow="true" Text="[JSON.item.joiningDate]" Format="Date" Format.Format="MMMM dd, yyyy" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="DataEmail" Left="509.45" Width="150" Height="28.35" Border.Lines="All" CanGrow="true" Text="[JSON.item.email]" AutoShrink="FontWidth" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="DataIsActive" Left="659.45" Width="58.75" Height="28.35" Border.Lines="All" CanGrow="true" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+      <CheckBoxObject Name="CheckBox1" Left="670.95" Width="28.35" Height="28.35" DataColumn="JSON.item.isActive"/>
+      <TextObject Name="Text2" Width="39.85" Height="28.35" Border.Lines="All" Text="[Row#]" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="106.5" Width="718.2" Height="28.35">
+      <TextObject Name="SummaryLabel" Width="659.45" Height="28.35" Border.Lines="All" Text="Total Employees:" HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="SummaryCount" Left="659.45" Width="58.75" Height="28.35" Border.Lines="All" Text="[HierarchyRow#]" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+    </ReportSummaryBand>
+  </ReportPage>
+</Report>
