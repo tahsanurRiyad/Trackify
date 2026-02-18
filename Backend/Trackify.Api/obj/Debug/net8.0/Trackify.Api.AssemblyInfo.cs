@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Trackify.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7dfbf452c4976f06558fb75cd6d5a5e17a6873f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42a442c198bdc002cf362a16bf4ba695740e5c97")]
 [assembly: System.Reflection.AssemblyProductAttribute("Trackify.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Trackify.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
